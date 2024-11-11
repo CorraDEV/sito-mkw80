@@ -1,0 +1,22 @@
+html{
+    background-color: black;
+    color: aqua;
+}
+
+a:active {
+    color: white;
+}
+
+#pagesList{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 5px;
+    width: fit-content;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+#errorMsg{
+    color: red;
+}
