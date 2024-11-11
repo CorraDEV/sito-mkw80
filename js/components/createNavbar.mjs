@@ -7,7 +7,7 @@ export default function createNavbar(pagesName){
     for(let i = 0; i < pagesName.length; i++){
         const li = document.createElement('li');
         const a = document.createElement('a');
-        if(pagesName[i].toLowerCase === 'home'){
+        if(pagesName[i].toLowerCase() === 'home'){
             a.href = root;            
         }
         else if(root === window.location.pathname){
