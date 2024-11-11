@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html{
     background-color: black;
     color: aqua;
+    font-family: 'Roboto', sans-serif;
 }
 
-a:active {
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    text-decoration: none;
     color: white;
 }
 
@@ -11,12 +25,12 @@ a:active {
     display: flex;
     list-style: none;
     padding-left: 0;
-    gap: 5px;
-    width: fit-content;
-    background-color: aqua;
+    width: 50%;    
+    justify-content: space-evenly;    
     margin: 0 auto;
 }
 
-#errorMsg{
-    color: red;
+#bioBox > p{
+    width: 33%;    
+    color: white;
 }

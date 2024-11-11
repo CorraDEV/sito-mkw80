@@ -9,7 +9,6 @@ export default function(videoLink){
     const videoTitle = document.createElement('h3');
     videoTitle.classList.add('videoTitle');
     videoTitle.textContent = 'Titolo Video';
-    videoBox.appendChild(videoTitle);
-    videoBox.appendChild(videoField);
+    videoBox.append(videoTitle, videoField);
     document.body.appendChild(videoBox);
 }
